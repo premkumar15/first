@@ -1,0 +1,64 @@
+PUSH ---> Sending from Local machine to Remote Machine
+Local Machine -->Laptop/Personal Computer
+
+Remote Machine-->Git hub
+
+Pull ---> Getting code from remote machine to local Machine
+
+
+PUSH:
+=====
+First we need to create a repo in the GIT HUB
+
+For a every project we need to create a new repository
+
+1. git config --global user.email emailId
+2. git config --global user.name  githubusername
+
+3.git init
+It will inilize the empty git repo in our local machine with the name of
+.git->It is hidden folder
+
+4.git status
+1.red colour--->It show files present in our folder but it is not yet added into the .git folder.
+2.Green colour -->It shows that all the files are added into the .git folder
+
+5.git add .
+-->This command is used to add all the files in the  project folder to the remote machine
+To add a specific file into remote machine
+git add filename
+
+6.git commit -m "message"
+For pushing a code from local to remote without commit we cant perform it
+-m ->denotes Message
+It is user defiend message--> It may be single word or line of words.
+
+7.git remote add origin repourl
+
+8.git push -u origin master
+This command is used to push code from local to remote machine
+-u -->denotes upstream
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
